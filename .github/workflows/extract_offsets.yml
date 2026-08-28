@@ -22,7 +22,7 @@ jobs:
 
     - name: 从远程下载 boot.img
       run: |
-        wget -q --show-progress https://r2.262832.xyz/raw/boot/boot.img -O boot.img
+        wget -q --show-progress https://github.com/CQF1768/auto_extract_offsets/releases/download/uload/boot.img -O boot.img
         if [ ! -f boot.img ]; then
           echo "错误：boot.img 下载失败"
           exit 1
