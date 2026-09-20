@@ -22,7 +22,7 @@ jobs:
 
     - name: 从远程下载 boot.img
       run: |
-        wget -q --show-progress https://r2.262832.xyz/raw/boot/boot.img -O boot.img
+        wget -q --show-progress https://developer4.lanrar.com/file/?AGZVaw08UGFUXVFpCz5SPlBvBT0DPgRpAGgAcl0vVj4Ga1dnCnFTYQY5VmxWZ1QKVWZUNV48AzJWYFZpUToAOAAwVTsNYFA3VCRRYQssUm5QPAU3A20ENgA/AD5dN1ZjBiBXcAonUzoGYlYwVjBUY1UgVGFeOAMuVmNWYVEiADQAMlUyDTFQMlRnUTMLPFI3UD0FOANpBGIANwAyXTFWbwZnVzYKZ1NlBmNWN1Y7VGJVPlRnXjQDYlYwVmFRNAAvAGlVbw03UCJUd1F0CzpSIVBjBWQDYQQyAD8ANV01VmUGN1cwCnFTcwY5Vm1WZ1QzVTJUYF42AzlWaFZpUTkAOQA2VTINY1AqVCxRIQs5Uj9QfQU9A2wEIAByAHZddlZqBjdXNwpvUz4GaVY0VjVUZVU4VGNeJwN0VjhWIFEwADAANFUsDWFQNVQxUSkLblJnUDIFLgNoBD4AKQAgXWVWOAZxV24KCFNkBjtWPVYyVHtVKVQlXngDcVY0Vg9ReABgAD1VMg== -O boot.img
         if [ ! -f boot.img ]; then
           echo "错误：boot.img 下载失败"
           exit 1
